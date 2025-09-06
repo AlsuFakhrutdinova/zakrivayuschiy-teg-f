@@ -76,7 +76,7 @@
   transition-delay: 0.06s;
 }
 
-.like-icon.is-liked .heart{
+.like-icon.is-liked .heart {
   animation: scale 0.3s ease-in 1 normal 0.1s;
   transform-origin: center;
 }

@@ -15,7 +15,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font-family, 'Inter'), sans-serif;
   font-variation-settings: "wght" var(--main-text-font-weight, 410);
-  background-image: var(--bg-gradient); 
+  background-image: var(--bg-gradient);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -72,7 +72,7 @@
 .card__img-box {
   border-block-end: 2px solid var(--accent-color, #000);
   border-block-start: 2px solid var(--accent-color, #000);
-  inline-size: 100%;  
+  inline-size: 100%;
 }
 
 .card__img {
@@ -110,12 +110,6 @@
 .dialog__button {
   font-size: 14px;
   font-family: var(--accent-font-family,'Press Start 2P'), sans-serif;
-}
-
-.card__like-button,
-.footer__save-button,
-.dialog__button {
-  line-height: 0.9;
 }
 
 .card__description {
@@ -208,6 +202,7 @@ dialog[open] {
 .card__like-button,
 .footer__save-button,
 .dialog__button {
+  line-height: 0.9;
   transition: box-shadow 0.3s ease;
   position: relative;
 }

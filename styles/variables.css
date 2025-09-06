@@ -1,1 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: 'Inter';
+  --accent-font-family: 'Press Start 2P';
+  --accent-color: #000;
+  --main-color: #fff;
+  --accent-color-transparent-50: rgba(0, 0, 0, 0.5);
+  --accent-color-transparent-75: rgba(0, 0, 0, 0.75);
+  --main-title-font-weight: 715;
+  --main-text-font-weight: 410;
+  --bg-gradient:
+  repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --responsive-clamp-block: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --logo-clamp: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-title-clamp: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-clamp-padding-top-bottom: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
+  --header-clamp-padding-right-left: clamp(1rem, -1.3437rem + 10vw, 7.6563rem);
+  --text-stroke-color: rgba(255, 255, 255, 0.5);
+  --responsive-clamp-dialog: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
+}
